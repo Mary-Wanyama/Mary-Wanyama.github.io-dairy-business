@@ -28,7 +28,26 @@ button{
 }
 .div1{
 float: left;
+width: 50%;
 }
 .div2{
 float: right;
+    margin-bottom: 3vw;
+}
+.home{
+    font-size: 3vw;
+}
+.homepage{
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#home{
+    font-size: 1.5vw;
+}
+.page{
+    height: 3vw;
+    width: 8vw;
+    margin-bottom: 10vw;
 }
