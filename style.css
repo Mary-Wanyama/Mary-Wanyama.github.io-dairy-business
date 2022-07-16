@@ -3,7 +3,7 @@ html{
 }
 header{
  background-color: rgb(7, 59, 7);
- color: white;
+ color: gold;
  font-size: 1.2vw;
 }
 li{
@@ -19,7 +19,7 @@ li{
 }
 a{
     text-decoration: none;
-    color: white;
+    color: gold;
 }
 button{
     height: 4vw;
@@ -51,7 +51,7 @@ float: right;
     width: 8vw;
     margin-bottom: 10vw;
     background-color: rgb(7, 59, 7);
-    color: white;
+    color: gold;
 }
 .about{
     position: relative;
@@ -82,4 +82,17 @@ float: right;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+footer{
+    background-color: rgb(8, 59, 8);
+    color: gold;
+    height: 20vw;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 1.2vw;
+    padding-left: 5%;
+    padding-right: 7%;
 }
