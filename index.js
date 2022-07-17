@@ -1,5 +1,5 @@
-// document.getElementById("title").innerHTML = "Farmville";
-// document.getElementById("foot").innerHTML = "Farmville";
+document.getElementById("title").innerHTML = "Farmville";
+document.getElementById("foot").innerHTML = "Farmville";
 
 
 function findTotal(){
