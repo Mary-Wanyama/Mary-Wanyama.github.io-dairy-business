@@ -17,6 +17,7 @@ the work of the owner of the land as while maintaining the production. This syst
 # Technologies used in this project are.
  1. HTML
  2. Css
+ 3. Javascript
 # Dependencies
 >This project does not have any previous dependancy projects.
 # Author
