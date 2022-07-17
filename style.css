@@ -68,10 +68,11 @@ float: right;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
     position: relative;
     right: 45%;
+    top: 8vw;
 }
 .feeds{
     display: flex;
@@ -89,11 +90,15 @@ float: right;
     align-items: center;
     margin-left: 5vw;
     margin-right: 5vw;
+    position: relative;
+    top: 10vw;
 }
 footer{
     background-color: rgb(8, 59, 8);
     color: gold;
     height: 20vw;
+    position: relative;
+    top: 13vw;
 }
 .footer{
     display: flex;
@@ -118,5 +123,14 @@ footer{
 .breed{
     position: relative;
     right: 28%;
+    top: 7vw;
 
+}
+.land{
+    position: relative;
+    top: 10vw;
+}
+.div7{
+    position: relative;
+    top: 10vw;
 }
