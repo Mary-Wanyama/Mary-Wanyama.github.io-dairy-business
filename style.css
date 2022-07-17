@@ -143,3 +143,19 @@ input,
 label {
     margin: .4rem 0;
 }
+#inputs{
+    font-size: 1vw;
+    position: relative;
+    top: 12vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(156, 134, 9);
+    height: 10vw;
+}
+#form9{
+    margin-left: 5vw;
+}
+.production{
+
+}
