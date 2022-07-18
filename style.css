@@ -177,6 +177,10 @@ label {
     top: 18vw;
     height: 5vw;
     font-size: 1.2vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .shed{
     width: 5vw;
