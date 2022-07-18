@@ -152,6 +152,7 @@ label {
     align-items: center;
     background-color: rgb(156, 134, 9);
     height: 10vw;
+    flex-wrap: wrap;
 }
 #form9{
     margin-left: 5vw;
@@ -176,4 +177,8 @@ label {
     top: 18vw;
     height: 5vw;
     font-size: 1.2vw;
+}
+.shed{
+    width: 5vw;
+    height: 1.5vw;
 }

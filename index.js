@@ -2,16 +2,16 @@
 // document.getElementById("foot").innerHTML = "Farmville";
 
 
-// function findTotal(){
-//     var arr = document.getElementsByName('shed');
-//     var tot=0;
+function findTotal(){
+    var output = document.getElementsByName('shed');
+    var day=0;
 
-//     for(var i=0;i<arr.length;i++){
-//         if(parseInt(arr[i].value))
-//             tot += parseInt(arr[i].value);
+    for(var i=0;i<output.length;i++){
+        if(parseInt(output[i].value))
+            day += parseInt(output[i].value);
             
-//     }
-//     document.getElementById('total').value = tot;
-// }
+    }
+    document.getElementById('total').value = day;
+}
 
 
