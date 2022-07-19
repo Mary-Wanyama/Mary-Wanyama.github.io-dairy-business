@@ -6,6 +6,8 @@ function findTotal() {
   findWeeklytotal();
   findMonthlyTotal();
   findMonthtotal();
+  findAprilTotal();
+  findFebtotal();
 }
 function findDailyTotal() {
   var output = document.getElementsByName("shed");
@@ -30,6 +32,19 @@ function findMonthtotal() {
     collection[i].value = days * 31;
   }
 }
+function findFebtotal() {
+    var feb = 29;
+    var days = document.getElementById("total").value;
+    var feb = feb * days;
+    document.getElementById("feb").value = feb;
+  }
+function findAprilTotal() {
+    var days = document.getElementById("total").value;
+    const collect = document.getElementsByName("april");
+    for (let i = 0; i < collect.length; i++) {
+      collect[i].value = days * 30;
+    }
+  }
 function findMonthlyTotal() {
   var input = document.getElementsByClassName("month");
   var year = 0;
