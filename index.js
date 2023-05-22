@@ -35,7 +35,8 @@ for (let i = 0; i < arr.length; i++) {
     }
   })
 }
-document.querySelector('.pag').addEventListener('click', function() {
+document.querySelector('.pag').addEventListener('click', function(e) {
+  e.preventDefault()
   document.querySelector('#display').id = "hello"
   document.querySelector('.homepage').id = "display"
 })
