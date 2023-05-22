@@ -4,8 +4,8 @@ var nums = []
 
 for (let i = 0; i < arr.length; i++) {
   document.querySelectorAll("input")[i].addEventListener("blur", function(){
-    console.log(this.value)
-    nums.push(parseInt(this.value))
+    console.log(document.querySelectorAll("input")[i].value)
+    nums.push(parseInt(document.querySelectorAll("input")[i].value))
     const sum = nums.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
     console.log(sum)
     document.querySelector('.total').textContent = sum
@@ -33,3 +33,7 @@ for (let i = 0; i < arr.length; i++) {
     }
   })
 }
+document.querySelector('.pag').addEventListener('click', function() {
+  document.querySelector('#display').removeAttribute('id')
+  document.querySelector('.homepage').id = "display"
+})

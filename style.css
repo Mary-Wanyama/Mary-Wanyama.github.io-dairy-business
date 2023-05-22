@@ -37,9 +37,14 @@ button{
     margin-left: 5%;
     margin-right: 5%;
 }
-.img{
-    width: fit-content;
+
+img{
+    width: 25%;
     height: auto;
+}
+.img{
+    height: fit-content;
+    width: fit-content;
     padding: 0%;
 }
 #home{
@@ -84,4 +89,7 @@ input{
     height: inherit;
     margin: 0%;
     padding: 0%;
+}
+.display{
+    display: hidden;
 }
