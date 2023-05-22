@@ -85,6 +85,6 @@ input{
     margin: 0%;
     padding: 0%;
 }
-.display{
+#display{
     display: hidden;
 }

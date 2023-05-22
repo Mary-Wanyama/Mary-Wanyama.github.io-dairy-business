@@ -39,3 +39,21 @@ document.querySelector('.pag').addEventListener('click', function() {
   document.querySelector('#display').removeAttribute('id')
   document.querySelector('.homepage').id = "display"
 })
+document.querySelector('.button').addEventListener('click', function(){
+  for (let i = 0; i < arr.length; i++) {
+    arr[i].value = 0
+  }
+  document.querySelector('.year').textContent = '-'
+  document.querySelector('.feb').textContent = '-'
+  document.querySelector('.total').textContent = '-'
+  var first = document.querySelectorAll('.jan')
+  var second = document.querySelectorAll('.ap')
+  for (let i = 0; i < first.length; i++) {
+    first[i].textContent = '-'
+    
+  }
+  for (let i = 0; i < second.length; i++) {
+    second[i].textContent = '-'
+    
+  }
+})
