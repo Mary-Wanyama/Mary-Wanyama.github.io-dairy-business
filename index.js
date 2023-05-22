@@ -36,7 +36,7 @@ for (let i = 0; i < arr.length; i++) {
   })
 }
 document.querySelector('.pag').addEventListener('click', function() {
-  document.querySelector('#display').removeAttribute('id')
+  document.querySelector('#display').id = "hello"
   document.querySelector('.homepage').id = "display"
 })
 document.querySelector('.button').addEventListener('click', function(){
@@ -46,6 +46,7 @@ document.querySelector('.button').addEventListener('click', function(){
   document.querySelector('.year').textContent = '-'
   document.querySelector('.feb').textContent = '-'
   document.querySelector('.total').textContent = '-'
+  document.querySelector('.week').textContent = '-'
   var first = document.querySelectorAll('.jan')
   var second = document.querySelectorAll('.ap')
   for (let i = 0; i < first.length; i++) {
