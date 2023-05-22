@@ -1,14 +1,14 @@
 document.getElementById("title").innerHTML = "Farmville";
 var arr = document.querySelectorAll("input")
 var nums = [1,2,3,4,5]
-
+let sum = 0
 
 for (let i = 0; i < arr.length; i++) {
   document.querySelectorAll("input")[i].addEventListener("blur", function(){
     console.log(document.querySelectorAll("input")[i].value)
     nums[i] = parseInt(document.querySelectorAll("input")[i].value)
 
-    const sum = nums.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
+    sum = nums.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
     console.log(sum)
     document.querySelector('.total').textContent = sum
     let week = sum*7
@@ -58,4 +58,5 @@ document.querySelector('.button').addEventListener('click', function(){
     second[i].textContent = '-'
     
   }
+  sum = 0
 })
