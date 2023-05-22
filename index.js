@@ -9,7 +9,7 @@ return (annual % 100 === 0) ? (annual % 400 === 0) : (annual % 4 === 0);
 }
 let eight = 28
 
-let number = parseInt(document.querySelector('.input'))
+let number = parseInt(document.querySelector('.input').value)
 document.querySelector('.h4').textContent = number
 if(leapyear(number)===true){
   eight = 29
