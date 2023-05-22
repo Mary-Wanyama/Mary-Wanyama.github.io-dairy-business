@@ -40,7 +40,8 @@ document.querySelector('.pag').addEventListener('click', function(e) {
   document.querySelector('#display').id = "hello"
   document.querySelector('.homepage').id = "display"
 })
-document.querySelector('.hom').addEventListener('click', function(){
+document.querySelector('.hom').addEventListener('click', function(e){
+  e.preventDefault()
   document.querySelector('.homepage').id = "hello"
   document.querySelector('.display').id = "display"
 })
