@@ -14,9 +14,9 @@ let eight = 28
 
 
 for (let i = 0; i < arr.length; i++) {
-  document.querySelectorAll("input")[i].addEventListener("blur", function(){
-    console.log(document.querySelectorAll("input")[i].value)
-    nums[i] = parseInt(document.querySelectorAll("input")[i].value)
+  document.querySelectorAll(".shed")[i].addEventListener("blur", function(){
+    console.log(document.querySelectorAll(".shed")[i].value)
+    nums[i] = parseInt(document.querySelectorAll(".shed")[i].value)
 
     sum = nums.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
     console.log(sum)
