@@ -23,5 +23,13 @@ for (let i = 0; i < arr.length; i++) {
     for (let i = 0; i < ap.length; i++) {
       document.querySelectorAll('.ap')[i].textContent = thirty
     }
+    let arrays = document.querySelectorAll('.month')
+    let adding = []
+    for (let i = 0; i < arrays.length; i++) {
+      
+      adding.push(parseInt(document.querySelectorAll('.month')[i].textContent))
+      const year = adding.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
+      document.querySelector('.year').textContent= year
+    }
   })
 }
