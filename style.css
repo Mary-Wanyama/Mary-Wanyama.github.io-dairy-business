@@ -54,86 +54,6 @@ float: right;
     background-color: rgb(7, 59, 7);
     color: gold;
 }
-.about{
-    position: relative;
-    right: 45%;
-}
-.div3{
-    width: 100%;
-}
-.cows{
-
-}
-.form1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 8vw;
-    margin-right: 8vw;
-    position: relative;
-    right: 45%;
-    top: 8vw;
-}
-.feeds{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 5vw;
-    margin-right: 5vw;
-}
-.form2{
-    display: flex;
-    justify-content: space-between;
-}
-.community{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    position: relative;
-    top: 10vw;
-}
-footer{
-    background-color: rgb(8, 59, 8);
-    color: gold;
-    height: 20vw;
-    position: relative;
-    top: 25vw;
-}
-.footer{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    font-size: 1.2vw;
-    padding-left: 5%;
-    padding-right: 7%;
-}
-.images{
-    width: 20vw;
-    height: 20vw;
-}
-.silage{
-    height: 24vw;
-    width: 24vw;
-}
-.form{
-    margin-left: 8vw;
-    margin-right: 8vw;
-}
-.breed{
-    position: relative;
-    right: 28%;
-    top: 7vw;
-
-}
-.land{
-    position: relative;
-    top: 10vw;
-}
-.div7{
-    position: relative;
-    top: 10vw;
-}
 label {
     display: block;
     font: 1rem 'Fira Sans', sans-serif;
@@ -143,45 +63,7 @@ input,
 label {
     margin: .4rem 0;
 }
-#inputs{
-    font-size: 1vw;
-    position: relative;
-    top: 12vw;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgb(156, 134, 9);
-    height: 10vw;
-    flex-wrap: wrap;
-}
-#form9{
-    margin-left: 5vw;
-}
-.production{
 
-}
-.totalamount{
-    position: relative;
-    top: 13vw;
-    font-size: 1.2vw;
-}
-.lastearn{
-    position: relative;
-    top: 15vw;
-    font-size: 1.2vw;
-}
-.monthly{
-    background-color: rgb(121, 104, 10);
-    color: white;
-    position: relative;
-    top: 18vw;
-    height: 8vw;
-    font-size: 1.2vw;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-}
 .shed{
     width: 5vw;
     height: 1.5vw;

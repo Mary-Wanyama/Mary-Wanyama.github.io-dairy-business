@@ -1,56 +1,50 @@
 document.getElementById("title").innerHTML = "Farmville";
-document.getElementById("foot").innerHTML = "Farmville";
+var arr = document.querySelectorAll("input")
+for (let i = 0; i < arr.length; i++) {
+  document.querySelectorAll("input")[i].addEventListener("blur", Listener)
+}
+function Listener() {
+  if(parseInt(arr[i].value)){
+    
+    document.querySelector(".total").textContent = 0 + parseInt(arr[i].value)
+    document.querySelector('.week').textContent = parseInt( document.querySelector(".total").textContent) * 7
 
-function findTotal() {
-  findDailyTotal();
-  findWeeklytotal();
-  findMonthlyTotal();
-  findMonthtotal();
-  findAprilTotal();
-  findFebtotal();
-}
-function findDailyTotal() {
-  var output = document.getElementsByName("shed");
-  var day = 0;
+    var thirtyone = document.querySelectorAll(".jan")
 
-  for (var i = 0; i < output.length; i++) {
-    if (parseInt(output[i].value)) day += parseInt(output[i].value);
-  }
-  document.getElementById("total").value = day;
-}
-function findWeeklytotal() {
-  var week = 7;
-  var days = document.getElementById("total").value;
-  var week = week * days;
-  document.getElementById("weekly").value = week;
-}
-
-function findMonthtotal() {
-  var days = document.getElementById("total").value;
-  const collection = document.getElementsByName("jan");
-  for (let i = 0; i < collection.length; i++) {
-    collection[i].value = days * 31;
-  }
-}
-function findFebtotal() {
-    var feb = 29;
-    var days = document.getElementById("total").value;
-    var feb = feb * days;
-    document.getElementById("feb").value = feb;
-  }
-function findAprilTotal() {
-    var days = document.getElementById("total").value;
-    const collect = document.getElementsByName("april");
-    for (let i = 0; i < collect.length; i++) {
-      collect[i].value = days * 30;
+    for (let i = 0; i < thirtyone.length; i++) {
+      document.querySelectorAll(".jan")[i].textContent = parseInt( document.querySelector(".total").textContent)* 31
     }
-  }
-function findMonthlyTotal() {
-  var input = document.getElementsByClassName("month");
-  var year = 0;
+    var thirty = document.querySelectorAll('.ap')
+    for (let i = 0; i < thirty.length; i++) {
+      document.querySelectorAll(".ap")[i].textContent = parseInt( document.querySelector(".total").textContent)* 30
+    }
+    document.querySelector('.feb').textContent =  parseInt( document.querySelector(".total").textContent)* 28
 
-  for (var i = 0; i < input.length; i++) {
-    if (parseInt(input[i].value)) year += parseInt(input[i].value);
-  }
-  document.getElementById("yearly").value = year;
+
+    document.querySelector('.year').textContent =  parseInt( document.querySelector(".total").textContent)* 365
+  } 
+
 }
+
+// function add(key) {
+//   switch (key) {
+//     case 'shed1':
+      
+//       break;
+//       case value:
+      
+//       break;
+//       case value:
+      
+//       break;
+//       case value:
+      
+//       break;
+//       case value:
+      
+//       break;
+  
+//     default:
+//       break;
+//   }
+// }
