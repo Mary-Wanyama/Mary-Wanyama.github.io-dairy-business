@@ -72,9 +72,16 @@ input{
 }
 .outputs{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 5vw;
 }
 .form{
     text-align: center;
+}
+.white{
+    background-color: rgb(3, 46, 3);
+    width: 0.1vw;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
 }
