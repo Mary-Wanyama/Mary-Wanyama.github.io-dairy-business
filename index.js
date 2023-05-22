@@ -9,5 +9,19 @@ for (let i = 0; i < arr.length; i++) {
     const sum = nums.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
     console.log(sum)
     document.querySelector('.total').textContent = sum
+    let week = sum*7
+    document.querySelector('.week').textContent = week
+    let thirty = sum * 30
+    let twenty = sum * 28
+    let thirtyone = sum * 31
+    document.querySelector('.feb').textContent = twenty
+    let jan = document.querySelectorAll(".jan")
+    for (let i = 0; i < jan.length; i++) {
+      document.querySelectorAll('.jan')[i].textContent = thirtyone
+    }
+    let ap = document.querySelectorAll('.ap')
+    for (let i = 0; i < ap.length; i++) {
+      document.querySelectorAll('.ap')[i].textContent = thirty
+    }
   })
 }
