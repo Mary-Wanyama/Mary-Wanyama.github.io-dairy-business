@@ -1,7 +1,9 @@
 document.getElementById("title").innerHTML = "Farmville";
 var arr = document.querySelectorAll("input")
 for (let i = 0; i < arr.length; i++) {
-  document.querySelectorAll("input")[i].addEventListener("blur", Listener)
+  document.querySelectorAll("input")[i].addEventListener("blur", function(){
+    alert("hello there")
+  })
 }
 function Listener() {
   if(parseInt(arr[i].value)){
