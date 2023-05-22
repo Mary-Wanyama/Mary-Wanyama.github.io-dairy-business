@@ -43,6 +43,7 @@ document.querySelector('.pag').addEventListener('click', function(e) {
 document.querySelector('.button').addEventListener('click', function(){
   for (let i = 0; i < arr.length; i++) {
     arr[i].value = 0
+    sum = 0
   }
   document.querySelector('.year').textContent = '-'
   document.querySelector('.feb').textContent = '-'
@@ -58,5 +59,5 @@ document.querySelector('.button').addEventListener('click', function(){
     second[i].textContent = '-'
     
   }
-  sum = 0
+  
 })
