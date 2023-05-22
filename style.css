@@ -61,14 +61,20 @@ input{
 }
 
 .shed{
-    width: 5vw;
-    height: 1.5vw;
+    width: 15vw;
+    height: 2vw;
+    background-color: inherit;
 }
 .h2{
     display: inline-block;
+    font-weight: 300;
+    font-size: 1.3vw;
 }
 .outputs{
     display: flex;
     justify-content: space-between;
     margin: 5vw;
+}
+.form{
+    text-align: center;
 }
