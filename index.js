@@ -8,7 +8,7 @@ for (let i = 0; i < arr.length; i++) {
     console.log(document.querySelectorAll("input")[i].value)
     nums[i] = parseInt(document.querySelectorAll("input")[i].value)
 
-    const sum = num.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
+    const sum = nums.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
     console.log(sum)
     document.querySelector('.total').textContent = sum
     let week = sum*7
