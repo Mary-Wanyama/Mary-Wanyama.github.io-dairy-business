@@ -40,6 +40,10 @@ document.querySelector('.pag').addEventListener('click', function(e) {
   document.querySelector('#display').id = "hello"
   document.querySelector('.homepage').id = "display"
 })
+document.querySelector('.hom').addEventListener('click', function(){
+  document.querySelector('.homepage').id = "hello"
+  document.querySelector('.display').id = "display"
+})
 document.querySelector('.button').addEventListener('click', function(){
   for (let i = 0; i < arr.length; i++) {
     arr[i].value = 0
