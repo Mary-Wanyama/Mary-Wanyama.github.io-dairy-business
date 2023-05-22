@@ -38,7 +38,8 @@ button{
     margin-right: 5%;
 }
 .img{
-    margin: 0%;
+    width: fit-content;
+    height: auto;
     padding: 0%;
 }
 #home{
@@ -52,7 +53,6 @@ button{
     color: gold;
 }
 label {
-    display: block;
     font: 1rem 'Fira Sans', sans-serif;
 }
 
@@ -63,4 +63,12 @@ input{
 .shed{
     width: 5vw;
     height: 1.5vw;
+}
+.h2{
+    display: inline-block;
+}
+.outputs{
+    display: flex;
+    justify-content: space-between;
+    margin: 5vw;
 }
