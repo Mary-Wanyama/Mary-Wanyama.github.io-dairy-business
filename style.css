@@ -26,23 +26,20 @@ button{
     width: 10vw;
     font-size: 1.2vw;
 }
-.div1{
-float: left;
-width: 50%;
-}
-.div2{
-float: right;
-    margin-bottom: 3vw;
-    clear: right;
-}
 .home{
     font-size: 3vw;
 }
 .homepage{
+    display:flex;
+    justify-content: space-between;
     margin-bottom: 3vw;
     margin-top: 3vw;
     margin-left: 5%;
     margin-right: 5%;
+}
+.img{
+    margin: 0%;
+    padding: 0%;
 }
 #home{
     font-size: 1.5vw;
@@ -59,9 +56,8 @@ label {
     font: 1rem 'Fira Sans', sans-serif;
 }
 
-input,
-label {
-    margin: .4rem 0;
+input{
+    width: 10vw;
 }
 
 .shed{
