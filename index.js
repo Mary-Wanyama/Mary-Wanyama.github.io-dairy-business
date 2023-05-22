@@ -9,11 +9,7 @@ return (annual % 100 === 0) ? (annual % 400 === 0) : (annual % 4 === 0);
 }
 let eight = 28
 
-let number = parseInt(document.querySelector('.input').value)
-document.querySelector('.h4').textContent = number
-if(leapyear(number)===true){
-  eight = 29
-}else{eight=28}
+
 
 
 
@@ -53,6 +49,11 @@ document.querySelector('.pag').addEventListener('click', function(e) {
   e.preventDefault()
   document.querySelector('#display').id = "hello"
   document.querySelector('.homepage').id = "display"
+  let number = parseInt(document.querySelector('.input').value)
+document.querySelector('.h4').textContent = number
+if(leapyear(number)===true){
+  eight = 29
+}else{eight=28}
 })
 document.querySelector('.hom').addEventListener('click', function(e){
   e.preventDefault()
