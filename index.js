@@ -1,7 +1,21 @@
 document.getElementById("title").innerHTML = "Farmville";
-var arr = document.querySelectorAll("input")
+var arr = document.querySelectorAll(".shed")
 var nums = [1,2,3,4,5]
 let sum = 0
+
+function leapyear(annual)
+{
+return (annual % 100 === 0) ? (annual % 400 === 0) : (annual % 4 === 0);
+}
+let eight = 28
+
+let number = parseInt(document.querySelector('.input'))
+document.querySelector('.h4').textContent = number
+if(leapyear(number)===true){
+  eight = 29
+}else{eight=28}
+
+
 
 for (let i = 0; i < arr.length; i++) {
   document.querySelectorAll("input")[i].addEventListener("blur", function(){
@@ -14,7 +28,7 @@ for (let i = 0; i < arr.length; i++) {
     let week = sum*7
     document.querySelector('.week').textContent = week
     let thirty = sum * 30
-    let twenty = sum * 28
+    let twenty = sum * eight
     let thirtyone = sum * 31
     document.querySelector('.feb').textContent = twenty
     let jan = document.querySelectorAll(".jan")
